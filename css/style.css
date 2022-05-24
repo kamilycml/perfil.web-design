@@ -1,0 +1,56 @@
+@font-face {
+    font-family: un;
+    src: url(Unpredictable.ttf);
+}
+
+:root {
+    --cor-fundo: #EE82EE;
+    --cor-título:#C71585;
+    --cor-parágrafo:#696969;
+    --cor-link:#D3D3D3;
+    --cor-borda:#800080;
+    --fonte-pincipal:initial;
+    --font: un;
+
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-pincipal);
+    width: 500px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    text-align: center;
+
+}
+    
+
+h1 {
+    color: var(--cor-título);
+    font-family: var(--font);
+    font-size: 50px;
+
+}
+
+body p {
+    text-align:justify;
+    color: var(--cor-parágrafo);
+    font-family: Georgia;
+}
+
+ul li a {
+    color: var(--cor-link);
+}
+
+img {
+    border-radius: 50%;
+    background-color: indigo;
+    border: 5xp;
+    border-color: indigo;
+
+}
+
